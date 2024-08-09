@@ -1,0 +1,45 @@
+# Python 相關
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虛擬環境
+venv/
+env/
+ENV/
+
+# IDE 相關
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系統相關
+.DS_Store
+Thumbs.db
+
+# Nuitka 編譯相關
+*.build/
+*.dist/
+*.onefile-build/
+*.bin
+image_converter
+
+# 日誌文件
+*.log
+
+# 測試相關
+.pytest_cache/
+.coverage
+
+# 臨時文件
+*.tmp
+*.bak
+*.swp
+
+# 輸入輸出資料夾（如果不想將圖片納入版本控制）
+input_images*/
+output_images*/
+
+# 其他
+*.spec
